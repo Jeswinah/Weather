@@ -26,6 +26,8 @@ const check = async (city) => {
       img.src = "images/wind.png";
     } else if (icons == "Snow") {
       img.src = "images/snow.png";
+    }else if (icons == "Clear") {
+      img.src = "images/clear.png";
     }
     console.log(icons);
   } catch (error) {
